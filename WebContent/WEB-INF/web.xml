@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<filter>
+		<filter-name>UTF8Filter</filter-name>
+		<filter-class>com.wang.filter.CharsetFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>UTF8Filter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>UTF8Filter</filter-name>
+		<url-pattern>*.*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>UTF8Filter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<servlet-name>LoginAction</servlet-name>
+		<servlet-class>com.wang.action.LoginAction</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddAdminAction</servlet-name>
+		<servlet-class>com.wang.action.AddAdminAction</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DelAdminAction</servlet-name>
+		<servlet-class>com.wang.action.DelAdminAction</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ModAdminAction</servlet-name>
+		<servlet-class>com.wang.action.ModAdminAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/LoginAction</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>AddAdminAction</servlet-name>
+		<url-pattern>/AddAdminAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelAdminAction</servlet-name>
+		<url-pattern>/DelAdminAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModAdminAction</servlet-name>
+		<url-pattern>/ModAdminAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddCheweiAction</servlet-name>
+		<servlet-class>com.wang.action.AddCheweiAction</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DelCheweiAction</servlet-name>
+		<servlet-class>com.wang.action.DelCheweiAction</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModCheweiAction</servlet-name>
+		<servlet-class>com.wang.action.ModCheweiAction</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>AddCheweiAction</servlet-name>
+		<url-pattern>/AddCheweiAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModCheweiAction</servlet-name>
+		<url-pattern>/ModCheweiAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelCheweiAction</servlet-name>
+		<url-pattern>/DelCheweiAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddUserinfoAction</servlet-name>
+		<servlet-class>com.wang.action.AddUserinfoAction</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DelUserinfoAction</servlet-name>
+		<servlet-class>com.wang.action.DelUserinfoAction</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModUserinfoAction</servlet-name>
+		<servlet-class>com.wang.action.ModUserinfoAction</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>AddUserinfoAction</servlet-name>
+		<url-pattern>/AddUserinfoAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModUserinfoAction</servlet-name>
+		<url-pattern>/ModUserinfoAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelUserinfoAction</servlet-name>
+		<url-pattern>/DelUserinfoAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ModFeiAction</servlet-name>
+		<servlet-class>com.wang.action.ModFeiAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ModFeiAction</servlet-name>
+		<url-pattern>/ModFeiAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegUserinfoAction</servlet-name>
+		<servlet-class>com.wang.action.RegUserinfoAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RegUserinfoAction</servlet-name>
+		<url-pattern>/RegUserinfoAction</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>YudingAction</servlet-name>
+		<servlet-class>com.wang.action.YudingAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>YudingAction</servlet-name>
+		<url-pattern>/YudingAction</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ChongAction</servlet-name>
+		<servlet-class>com.wang.action.ChongAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ChongAction</servlet-name>
+		<url-pattern>/ChongAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddCheAction</servlet-name>
+		<servlet-class>com.wang.action.AddCheAction</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DelCheAction</servlet-name>
+		<servlet-class>com.wang.action.DelCheAction</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModCheAction</servlet-name>
+		<servlet-class>com.wang.action.ModCheAction</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>AddCheAction</servlet-name>
+		<url-pattern>/AddCheAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModCheAction</servlet-name>
+		<url-pattern>/ModCheAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelCheAction</servlet-name>
+		<url-pattern>/DelCheAction</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AddCfeiAction</servlet-name>
+		<servlet-class>com.wang.action.AddCfeiAction</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DelCfeiAction</servlet-name>
+		<servlet-class>com.wang.action.DelCfeiAction</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>AddCfeiAction</servlet-name>
+		<url-pattern>/AddCfeiAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DelCfeiAction</servlet-name>
+		<url-pattern>/DelCfeiAction</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
