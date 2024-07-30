@@ -1,8 +1,7 @@
 <p><h1 align="center">基于JSP+Servlet的停车场管理系统</h1></p>
 
-<p> 获取sql文件 QQ: 3645296857 QQ群: 978300347 </p>
-<b> 需要视频演示可联系上述QQ，私发视频链接 </b>
-<p> [个人站点: mzoo源码网](https://mzoocodes.com/)</p>
+<p> 获取sql文件 QQ: 605739993 QQ群: 377586148 </p>
+<p> [个人站点: 从戎源码网](https://armycodes.com/)</p>
 
 ## 简介
 
